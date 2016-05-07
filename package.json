@@ -1,0 +1,23 @@
+{
+  "name": "icao-standard-atmosphere",
+  "version": "0.0.1",
+  "description": "The International Civil Aviation Organization (ICAO) published their \"ICAO Standard Atmosphere\" as Doc 7488-CD in 1993. It has the same model as the ISA, but extends the altitude coverage to 80 kilometers (262,500 feet).<sup>[[1](https://en.wikipedia.org/wiki/International_Standard_Atmosphere#cite_note-ICAO_1993-7)]</sup>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wittnl/icao-standard-atmosphere.git"
+  },
+  "keywords": [
+    "icao",
+    "aeronautics"
+  ],
+  "author": "Nathan Witt <wittnl@gmail.com> (http://wi.tt/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wittnl/icao-standard-atmosphere/issues"
+  },
+  "homepage": "https://github.com/wittnl/icao-standard-atmosphere"
+}
