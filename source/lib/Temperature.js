@@ -1,6 +1,5 @@
 'use strict';
-//export default Temperature;
-module.exports = Temperature;
+export default Temperature;
 
 /**
  * Temperature object constructor
