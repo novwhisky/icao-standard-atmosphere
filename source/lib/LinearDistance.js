@@ -37,6 +37,6 @@ function LinearDistance(value, unit) {
 }
 
 LinearDistance.prototype = {
-  FTtoM: function(ft) { return ft / 3.2808; },
-  MtoFT: function(m) { return m * 3.2808; }
+  FTtoM: function(ft) { return ft * 0.3048; },
+  MtoFT: function(m) { return m / 0.3048; }
 };
