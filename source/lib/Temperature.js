@@ -17,7 +17,7 @@ function Temperature(value, unit) {
     this.unit = 'K';
     console.warn('Temperature unit was not given, defaulting to SI unit Kelvin');
   }else{
-    this.unit = unit.toUpperCase();
+    this.unit = unit;
   }
 
   this.toString = function(decimalPlaces) {
@@ -30,11 +30,9 @@ function Temperature(value, unit) {
   this.valueOf = function() { return value; };
 
   this.convertTo = function convertTo(newUnit) {
-    newUnit = newUnit.toUpperCase();
-
-    if(this.unit === newUnit) return this;
+    if(this.unit.toLowerCase() === newUnit.toLowerCase()) return this;
     else {
-      var convertFn = this.unit + 'to' + newUnit;
+      var convertFn = this.unit.toUpperCase() + 'to' + newUnit.toUpperCase();
       if(this[convertFn]){
         return new Temperature(this[convertFn](value), newUnit);
       }else{

@@ -1,3 +1,1 @@
-import Temperature from './lib/Temperature';
-
-export { Temperature };
+import Atmosphere from './lib/Atmosphere';
