@@ -22,6 +22,9 @@
     "url": "https://github.com/wittnl/icao-standard-atmosphere/issues"
   },
   "homepage": "https://github.com/wittnl/icao-standard-atmosphere",
+  "dependencies": {
+    "metiri": "0.0.15"
+  },
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",

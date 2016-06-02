@@ -3,6 +3,7 @@
 var path = require('path');
 
 module.exports = {
+  devtool: 'source-map',
   entry: './source/index.js',
   output: {
     library: require('./package.json').name,
